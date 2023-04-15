@@ -10,7 +10,7 @@ def f1(s):
             word += x
         elif s[i+1] != ' ':
             word = ''
-
+    return word
 def f2(s):
     return len(set(s.split()).pop())
 
